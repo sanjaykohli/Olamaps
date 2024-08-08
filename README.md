@@ -14,7 +14,7 @@ cd Olamaps
 
 ## Create an Account and Obtain an API Key
 
-1. Go to the [Olamaps Dashboard](https://maps.olakrutrim.com/dashboard) and sign up for an account.
+1. Go to the [Olamaps](https://maps.olakrutrim.com/) and sign up for an account.
 2. Once registered and logged in, navigate to the API key section in the dashboard.
 3. Create a new API key and copy it.
 
