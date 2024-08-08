@@ -27,7 +27,7 @@ export default function App() {
       >
         <StaticMap
           mapLib={maplibregl}
-          mapStyle="https://api.olamaps.io/tiles/vector/v1/styles/default-light-standard/style.json"
+          mapStyle="https://api.olamaps.io/tiles/vector/v1/styles/default-dark-standard/style.json"
           transformRequest={(url, resourceType) => {
             if(!url.includes('?')){
               url = url + '?api_key={your_api_key}';
