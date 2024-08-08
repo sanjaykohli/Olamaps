@@ -30,10 +30,10 @@ export default function App() {
           mapStyle="https://api.olamaps.io/tiles/vector/v1/styles/default-light-standard/style.json"
           transformRequest={(url, resourceType) => {
             if(!url.includes('?')){
-              url = url + '?api_key=rza4jnvA7TORC0kAnHIsliN3HJUlXi0spoqsytwU';
+              url = url + '?api_key={your_api_key}';
             }
             else{
-              url = url + '&api_key=rza4jnvA7TORC0kAnHIsliN3HJUlXi0spoqsytwU';
+              url = url + '&api_key={your_api_key}';
 
             }
             return { url, resourceType };
